@@ -8,7 +8,7 @@ Created on Wed Mar 11 10:32:44 2020
 from math import ceil
 
 # Give x is a value
-x=2020
+x=1750
 # Add a string variable
 s=str(x)+" is "
 # Find n which makes 2^n is closest number to x and smaller than x.

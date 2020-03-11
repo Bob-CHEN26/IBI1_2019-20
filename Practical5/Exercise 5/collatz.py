@@ -5,7 +5,7 @@ Created on Wed Mar 11 10:02:46 2020
 @author: 10139
 """
 # Give n a value
-n = 56
+n = 57
 print ("Primitive number:", n)
 # Use a as a count for repeating the following code
 a = 0

@@ -11,7 +11,8 @@ print (b%7)
 c = b/7
 d = c/11
 e = d/13
-print ("a is", a, "and e is", e, ". Is a greater than e?", a>e)
+print ("a is", a, "and e is", e, ".")
+print ("Is a greater than e?", a>e)
 
 # 4.2 Booleans
 X = True
