@@ -22,7 +22,7 @@ for i in s:
     else:
         print ('The DNA string exists some errors.')
         exit
-print ('The DNA string has', nucleotides['A'], 'A,', nucleotides['C'], 'C,', nucleotides['G'], 'G,', nucleotides['T'], 'T.')
+print ('The DNA string(', s, ')has', nucleotides['A'], 'A,', nucleotides['C'], 'C,', nucleotides['G'], 'G,', nucleotides['T'], 'T.')
 #Construct a pie
 import matplotlib.pyplot as plt
 labels = 'A', 'C', 'G', 'T'
