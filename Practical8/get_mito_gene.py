@@ -47,7 +47,7 @@ for i in range(1, n+1):
 # Find the mitochondria sequence
     for k in range(start, len(sseq)):
         sequence = sequence + sseq[k]
-    data[str(i)] = gene_name +'  '+ str(length) + '\n' + sequence
+    data[str(i)] ='>Gene: ' + gene_name +'  Length: '+ str(length) + 'bp' + '\n' + sequence
 # Refresh the temporary data
     gene_name = ''
     sseq = ''

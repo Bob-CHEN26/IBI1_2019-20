@@ -60,7 +60,7 @@ for i in range(1, n+1):
             cDNA = cDNA + 'G'
         elif m == 'G':
             cDNA = cDNA + 'C'
-    data[str(i)] = gene_name +'  '+ str(length) + '\n' + cDNA
+    data[str(i)] = '>Gene: ' + gene_name +'  Length: '+ str(length) + 'bp' + '\n' + cDNA
 # Refresh the temporary data
     gene_name = ''
     sseq = ''
