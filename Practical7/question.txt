@@ -1,0 +1,5 @@
+Question: Are there places in the World where have not yet been more than 10 total infections (as of 31 March)? If so, where are they?
+Line number: 69.
+The places in the world where there have not yet been more than 10 total infections (as of 31 March) are
+1:Angola  2:Anguilla  3:Antigua and Barbuda  4:Belize  5:Benin  6:Bhutan  7:British Virgin Islands  8:Cape Verde  9:Central African Republic  10:Chad  11:Falkland Islands  12:Fiji  13:Gabon  14:Gambia  15:Greenland  16:Grenada  17:Guinea-Bissau  18:Guyana  19:Laos  20:Liberia  21:Libya  22:Mariana Islands  23:Mauritania  24:Montserrat  25:Mozambique  26:Nepal  27:Nicaragua  28:Papua New Guinea  29:Saint Kitts and Nevis  30:Saint Lucia  31:Saint Vincent and the Grenadines  32:Seychelles  33:Somalia  34:South Sudan  35:Sudan  36:Suriname  37:Swaziland  38:Syria  39:Timor  40:Turks and Caicos Islands  41:Vatican  42:Zimbabwe  
+There are 42 eligible places.
