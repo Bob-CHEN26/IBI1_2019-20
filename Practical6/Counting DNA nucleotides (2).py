@@ -4,7 +4,7 @@ Created on Wed Mar 18 09:00:13 2020
 
 @author: 10139
 """
-
+import sys
 #Input the DNA string
 s = input('')
 #Set up a dictionary
@@ -21,7 +21,7 @@ for i in s:
         nucleotides['T'] += 1
     else:
         print ('The DNA string exists some errors.')
-        exit
+        sys.exit()
 print ('The DNA string(', s, ')has', nucleotides['A'], 'A,', nucleotides['C'], 'C,', nucleotides['G'], 'G,', nucleotides['T'], 'T.')
 #Construct a pie
 import matplotlib.pyplot as plt
