@@ -22,7 +22,7 @@ covid_data.info() # Data points are integer. Columns: data, location, new_cases,
 # Use describe command
 print ('\nThe outcome of "covid_data.describe()":\n', covid_data.describe(), '\n') # The mean of new cases is 194.546773, the median of new cases is 0.
 # Use iloc & loc command
-print ('Task2:\n',covid_data.iloc[:,0:15:3])
+print ('Task2:\n',covid_data.iloc[0:15:3,:])
 # Use a Boolean to show “total cases” for all rows corresponding to Afghanistan. 
 Boolean_sequence = []
 for i in range(0, 7996):
