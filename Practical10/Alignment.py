@@ -125,8 +125,8 @@ for i in range (len(seq_random)):
         alignment3 += seq_random[i]  # Record the alignment
     score3 += int(matrix.iloc[row, column]) # Calculate the sum of BLOSUM score
 # Step 3: Print output
-print ('A comparsion between SOD2_human and SOD2_mouse\nSOD2_human:\n',seq_human, '\n\nAlignment:\n', alignment1, '\n\nSOD_mouse:\n',seq_mouse, '\n\nThe final BLOSUM score is', str(score1), '.\n', 'The Hamming/edit distance is', str(edit_distance1), ', so the similarity of them is', str(100-edit_distance1/len(seq_human)*100), '%.\n' )
-print ('A comparsion between SOD2_human and RandomSeq\nSOD2_human:\n',seq_human, '\n\nAlignment:\n', alignment2, '\n\nRandomSeq:\n',seq_random, '\n\nThe final BLOSUM score is', str(score2), '.\n', 'The Hamming/edit distance is', str(edit_distance2), ', so the similarity of them is', str(100-edit_distance2/len(seq_human)*100), '%.\n' )
-print ('A comparsion between RandomSeq and SOD2_mouse\nRandomSeq:\n',seq_random, '\n\nAlignment:\n', alignment3, '\n\nSOD_mouse:\n',seq_mouse, '\n\nThe final BLOSUM score is', str(score3), '.\n', 'The Hamming/edit distance is', str(edit_distance3), ', so the similarity of them is', str(100-edit_distance3/len(seq_random)*100), '%.\n' )
+print ('A comparsion between SOD2_human and SOD2_mouse\nSOD2_human(NP_000627.2):\n',seq_human, '\n\nAlignment:\n', alignment1, '\n\nSOD_mouse(NP_038699.2):\n',seq_mouse, '\n\nThe final BLOSUM score is', str(score1), '.\n', 'The Hamming/edit distance is', str(edit_distance1), ', so the similarity of them is', str(100-edit_distance1/len(seq_human)*100), '%.\n' )
+print ('A comparsion between SOD2_human and RandomSeq\nSOD2_human(NP_000627.2):\n',seq_human, '\n\nAlignment:\n', alignment2, '\n\nRandomSeq:\n',seq_random, '\n\nThe final BLOSUM score is', str(score2), '.\n', 'The Hamming/edit distance is', str(edit_distance2), ', so the similarity of them is', str(100-edit_distance2/len(seq_human)*100), '%.\n' )
+print ('A comparsion between RandomSeq and SOD2_mouse\nRandomSeq:\n',seq_random, '\n\nAlignment:\n', alignment3, '\n\nSOD_mouse(NP_038699.2):\n',seq_mouse, '\n\nThe final BLOSUM score is', str(score3), '.\n', 'The Hamming/edit distance is', str(edit_distance3), ', so the similarity of them is', str(100-edit_distance3/len(seq_random)*100), '%.\n' )
 
 
