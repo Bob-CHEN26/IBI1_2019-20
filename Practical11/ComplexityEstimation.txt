@@ -1,0 +1,1 @@
+Reason: When given x numbers, the program starts with x numbers to find whether they can form 24, then use x-1 numbers of the whole x numbers, etc. until using 2 numbers of them to examine. The program will stop immediately when it find a result of 24.
