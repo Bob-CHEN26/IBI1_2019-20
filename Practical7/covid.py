@@ -41,7 +41,7 @@ mean = np.mean(world_data.iloc[:,2])
 median = np.median(world_data.iloc[:,2])
 print ('\nTask4:\nThe mean for new cases around the world is:', mean, '.')
 print ('The median for new cases around the world is:', median, '.')
-# Create a boxplot
+# Create a box plot
 print ('\nTask5:')
 plt.boxplot(world_data.iloc[:, 2],
             vert = True,
@@ -54,7 +54,7 @@ plt.boxplot(world_data.iloc[:, 2],
             notch = False
             )
 plt.show()
-# Create a box plot
+# Create a graph
 print ('\nTask6:')
 plt.plot (world_data.iloc[:, 0], world_data.iloc[:, 2], 'b+')
 plt.plot (world_data.iloc[:, 0], world_data.iloc[:, 3], 'r+')
