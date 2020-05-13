@@ -1,0 +1,1 @@
+This practical is a bit difficult for personal practice, so I made a group discussion to help each other. Most parts of the tasks contains new functions and ideas, which helps me broaden my programming thoughts, especially doing spatical_SIR.py. Hard practice does need time and effort, but after I finish them, I cannot be more exercited and enjoyable.
