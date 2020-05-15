@@ -23,20 +23,19 @@ for term in terms:
         name_nodelist = term.getElementsByTagName('name')[0]
         name = name_nodelist.childNodes[0].data # Get the text between <name> and </name>
         dic['name'].append(name)
-        childnodes = 0
+        childnodes = 0 # Store the number of childNodes
         related_term = [go_id] 
-        flag = True
-        while related_term != []: # Find all related gene ontology term
-            related_term_copy = related_term
+        while related_term != []: # Find all related gene ontology terms 
+            related_term_copy = related_term # Make a copy of related gene ontology terms since the previous one will be used to store the new ones
             related_term = []
-            for j in related_term_copy:
+            for j in related_term_copy: # Take each id of related gene ontology terms
                 for term_copy in terms:
-                    for i in term_copy.getElementsByTagName('is_a'):
+                    for i in term_copy.getElementsByTagName('is_a'): # Get the text between <is_a> and </is_a>
                         is_a2_text = i.childNodes[0].data
-                        if is_a2_text == j:
-                            childnodes += 1
+                        if is_a2_text == j: # Find and store the related gene ontology term
+                            childnodes += 1 # Record the number of childNodes
                             id_nodelist = term_copy.getElementsByTagName('id')[0]
-                            related_term.append(id_nodelist.childNodes[0].data)
+                            related_term.append(id_nodelist.childNodes[0].data) # Add new related gene ontology terms
         dic['childnodes'].append(childnodes)
         dic['definition'].append(defstr)
 df = pd.DataFrame(dic) # Set up a dataframe with the dictionary
